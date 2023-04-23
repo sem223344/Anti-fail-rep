@@ -1,0 +1,9 @@
+.form {
+    border-radius :  13px ;
+    border: 2px solid black;
+    width: 350px;
+    font-family: Arial, sans-serif;
+}
+#button {
+    font-family: Arial, sans-serif;
+}
