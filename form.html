@@ -27,8 +27,9 @@
                         <input id="F" type="text" placeholder="Stradivari">
                     </div>
                     <div>
-                        <label for="pr">День рождения</label>
-                        <input id="pr" type="date" ><input type="time">
+                        <label for="birthday">День рождения</label>
+                        <input type="datetime-local" id="birthday"
+                         name="birthday" >
                     </div>
                     <div>
                         <label for="mail">Mail</label>
@@ -36,16 +37,14 @@
                     </div>
                     <div>
                         <label for="female">Female</label>
-                        <input type="radio" id="female" value="male" name="gender">
+                        <input type="radio" id="female" value="female" name="gender">
                     </div>
                 </fieldset>
                 <fieldset class="form">
                     <legend>Адресные данные</legend>
                     <div>
                         <label for="city">Город</label>
-                        <input id="city" >
-                        <select name="city">
-                            <option value="">Выберите город</option>
+                        <select>
                             <option value="Винница">Винница</option>
                             <option value="Днепр">Днепр</option>
                             <option value="Донецк">Донецк</option>
